@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { login } from '../models/login';
 import { Router, RouterLink } from '@angular/router';
+import { HttpClient } from '@angular/common/http';
+import { RegistrationDetails } from '../models/registration';
+import { StudentsService } from '../students.service';
 
 @Component({
   selector: 'app-login',
@@ -9,15 +12,21 @@ import { Router, RouterLink } from '@angular/router';
 })
 export class LoginComponent implements OnInit {
 
-  constructor(private _router:Router) { }
+  studentList: Array<RegistrationDetails> = [];
+  valid:boolean= false;
+  
+  
+  constructor(private _router:Router,private _httpClient: HttpClient,private _studentservice: StudentsService) { }
 
+
+  
   ngOnInit(): void {
   }
 login:login = new login();
 
 logon(){
-  alert("You have successfully logged in");
-  console.log(this.login);
+
+  
 }
 resetAll(){
   this.login = new login();

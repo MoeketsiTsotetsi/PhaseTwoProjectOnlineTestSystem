@@ -1,0 +1,22 @@
+{
+    "students" : [
+        {
+            "id":1,
+            "name":"Moeketsi Tsotetsi",
+            "email":"tmoeketsid@gmail.com",
+            "password":"1234567",
+            "mobile":"0743133843",
+            "dob":"1997/03/26",
+            "course":"Computer Sciences"
+        },
+        {
+            "id":2,
+            "name":"Mega Tsotetsi",
+            "email":"megad@gmail.com",
+            "password":"1234567890",
+            "mobile":"0673133843",
+            "dob":"2005/05/21",
+            "course":"Biology"
+        }
+    ]
+}
