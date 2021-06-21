@@ -10,13 +10,14 @@ import { RegistrationDetails } from '../models/registration';
 export class TestsComponent implements OnInit {
 
 
-  studentsList:Array<RegistrationDetails> = [];
+  questionList:any = [];
   constructor(private _httpClient:HttpClient) { }
 
   ngOnInit(): void {
-    this._httpClient.get<RegistrationDetails[]>('http://localhost:3000/students').subscribe(result => {
-      this.studentsList = result;
-      console.log(this.studentsList);
+    this._httpClient.get('http://localhost:3000/questions').subscribe(result => {
+      this.questionList = result;
+      
+      
     }, (error) => { console.log(error); })
   }
 

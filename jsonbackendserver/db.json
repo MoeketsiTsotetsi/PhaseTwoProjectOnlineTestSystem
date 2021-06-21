@@ -31,10 +31,10 @@
         },
         {
             "id":2,
-            "question":"Node is has embedded with what ?",
+            "question":"Node is  embedded with what ?",
             "option1":" A. Java",
             "option2":"B. C++",
-            "option3:":"C. C#",
+            "option3:":"C. C Sharp",
             "answer":"B"
 
         },
@@ -44,6 +44,15 @@
             "option1":" A. Microsoft",
             "option2":"B. Google",
             "option3:":"C. Tesla",
+            "answer":"A"
+
+        },
+        {
+            "id":4,
+            "question":"What module is needed to consume restful apis  ?",
+            "option1":" A. HttpClient",
+            "option2":"B. Client Module",
+            "option3:":"C. REST Module",
             "answer":"A"
 
         }
