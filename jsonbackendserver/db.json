@@ -1,0 +1,51 @@
+{
+    "students" : [
+        {
+            "id":1,
+            "name":"Moeketsi Tsotetsi",
+            "email":"tmoeketsid@gmail.com",
+            "password":"1234567",
+            "mobile":"0743133843",
+            "dob":"1997/03/26",
+            "course":"Computer Sciences"
+        },
+        {
+            "id":2,
+            "name":"Mega Tsotetsi",
+            "email":"megad@gmail.com",
+            "password":"1234567890",
+            "mobile":"0673133843",
+            "dob":"2005/05/21",
+            "course":"Biology"
+        }
+    ],
+    "questions":[
+        {
+            "id":1,
+            "question":"Who founded angular ?",
+            "option1":" A. Microsoft",
+            "option2":"B. Google",
+            "option3:":"C. Tesla",
+            "answer":"B"
+
+        },
+        {
+            "id":2,
+            "question":"Node is has embedded with what ?",
+            "option1":" A. Java",
+            "option2":"B. C++",
+            "option3:":"C. C#",
+            "answer":"B"
+
+        },
+        {
+            "id":3,
+            "question":"Who invented Typescript ?",
+            "option1":" A. Microsoft",
+            "option2":"B. Google",
+            "option3:":"C. Tesla",
+            "answer":"A"
+
+        }
+    ]
+}
