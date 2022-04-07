@@ -1,0 +1,60 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+
+.loc_text{
+    margin-right: 60rem;
+    margin-left: 2rem;
+    
+}
+
+.top-nav{
+    background-color: grey;
+    display: inline-block;
+    width: 100%;
+}
+
+i{
+    margin-right: 1.1rem;
+}
+
+span{
+    color: white;
+}
+
+#loc-icon{
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+    height: 4vh;
+}
+
+#home{
+    margin-left: 25rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-item{
+    margin-right: 3rem;
+}
+
+#logo{
+border-radius: .7rem;
+margin-left: 3rem;
+    width: 60%;
+    height: 10vh;
+}
+
+/* animations */
+.dropdown-item:hover{
+    background-color: rgb(255, 191, 0);
+}
